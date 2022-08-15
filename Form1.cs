@@ -115,5 +115,10 @@ namespace DemoSQL
         {
             //XtraMessageBox.Show(gridView1.GetRowCellValue(e.RowHandle, "tensv").ToString());
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            XtraMessageBox.Show("TEST");
+        }
     }
 }
